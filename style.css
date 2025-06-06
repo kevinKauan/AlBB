@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main  {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+
+#container, header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e2a38;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nave, .nav {
+    list-style : none;
+}
+
+.nav {
+    color: #c8d6e5;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid rgb(229, 243, 255);
+}
+
+.nav:hover {
+    color: #00b894;
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    background: #FFEAEA;
+    color: #3D1F1F; 
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 -8px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    background-color: #1e2a38;
+    color: #ffffff;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1073e5;
+}
+
+.partebaixo {
+    width: 40px;
+    height: 40px;
+    padding: 0 40px 10px 20px;
+}
+
+strong {
+    color: #C71515;
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.teste {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+
+.ben {
+    display: flex;
+    justify-content: center;
+}
+
+.grif {
+    color: #FF6666;
+}
+
+.imagens-group {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.divisao {
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.paga {
+    border-bottom: 1px solid rgb(229, 243, 255);
+}
+
+.introd-group {
+    display: flex;
+}
+
+.introd-texto {
+    margin-left: 20%;
+    margin-right: 15%;
+    width: 20%;
+}
+
+.pai-inf {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.pai-loc {
+    display: grid;
+    grid-template-columns: repeat(1 mimax(0,1fr));
+}
+
+.pai-tt, .loc {
+    display: flex;
+    justify-content: center;
+}
+
+.img-loc {
+    width: 700px;
+    height: 300px;
+}
+
+.perg-pai {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    text-align: center;
+    padding: 0 20px 20px 20px;
+}
+
+.ttl-perg {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+aside, .asd-bt {
+    float: right;
+}
+
+.asd-bt {
+    width: 145px;
+    height: 50px;
+}
+
+aside {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    gap: 10px;
+    background-color: red;
+    width: 10%;
+    gap: 20px;    
+}
+
+#asd-pai {
+    display: none;
+}
+
+.asd-son {
+    padding: 8px 0 0 0;
+}
+
+.asd-son, .asd-ttl {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.asd-son:hover, .asd-bt:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(60, 174, 163, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
