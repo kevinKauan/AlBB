@@ -170,7 +170,8 @@ aside {
     gap: 10px;
     background-color: red;
     width: 10%;
-    gap: 20px;    
+    gap: 20px;
+    width: 145px;    
 }
 
 #asd-pai {
@@ -192,4 +193,25 @@ aside {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(60, 174, 163, 0.5);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ajuda {
+    text-decoration: none;
+    color: red;
+    border-bottom: 1px solid rgb(176, 34, 145);
+}
+
+.ajuda-pai, .ajuda-son {
+    display: flex;
+    flex-direction: column;
+    border: solid 2px pink;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: blueviolet;
+}
+
+.ajuda-son {
+    background-color: green;
 }

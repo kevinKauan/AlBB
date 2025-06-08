@@ -175,7 +175,7 @@ aside, .asd-bt {
 }
 
 .asd-bt {
-    width: 100px;
+    width: 145px;
     height: 50px;
 }
 
@@ -187,5 +187,30 @@ aside {
     right: 10px;
     z-index: 1000;
     gap: 10px;
-    background-color: red;    
+    background-color: red;
+    width: 10%;
+    gap: 20px;
+    width: 145px;    
 }
+
+#asd-pai {
+    display: none;
+}
+
+.asd-son {
+    padding: 8px 0 0 0;
+}
+
+.asd-son, .asd-ttl {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.asd-son:hover, .asd-bt:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(60, 174, 163, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+

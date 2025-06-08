@@ -43,22 +43,22 @@
     <aside>
         <div id="asd-pai" style="display: block;">
             <div>
-                <h1>
+                <h1 class="asd-ttl">
                     Atalhos
                 </h1>
             </div>
             <div>
-                <a href="./index.html">
-                    Pág Inicial
+                <a href="./index.html" class="asd-son">
+                    Pág Ínicial
+                </a>
+            </div class="asd-son">
+            <div>
+                <a href="./cortes.html" class="asd-son">
+                    Cortes here
                 </a>
             </div>
-            <div>
-                <a href="./cortes.html">
-                    Cortes
-                </a>
-            </div>
-            <div>
-                <a href="./fim.html">
+            <div class="at-asd">
+                <a href="./fim.html" class="asd-son">
                     Fim
                 </a>
             </div>
@@ -196,10 +196,21 @@
                 <div class="txt-inf">
                     Estamos aqui para ajudar você!
                     Segunda a sexta, das 9h às 19h.
+                    <br>
+                    <a href="central.html" class="ajuda">Click aqui para obter ajuda</a>
                 </div>
             </div>
         </div>
     </footer>
+<script type="module">
+    import { animate, hover } from "https://cdn.jsdelivr.net/npm/motion@12.16.0/+esm"
+
+    hover(".card-son", (element) => {
+        animate(element, { scale: 1.3 })
+
+        return () => animate(element, { scale: 1 })
+    })
+</script>
     <script src="script.js"></script>
 </body>
 </html>
