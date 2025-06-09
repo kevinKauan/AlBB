@@ -64,93 +64,6 @@ body {
     padding: 0 40px 10px 20px;
 }
 
-strong {
-    color: #C71515;
-}
-
-.sobre {
-    display: flex;
-    justify-content: center;
-}
-
-.teste {
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 12%;
-    margin-left: 12%;
-}
-
-.ben {
-    display: flex;
-    justify-content: center;
-}
-
-.grif {
-    color: #FF6666;
-}
-
-.imagens-group {
-    display: flex;
-    flex-direction: row;
-    gap: 80px;
-}
-
-.divisao {
-    display: flex;
-    margin: 0 0 20px 0;
-}
-
-.img-inf {
-    border-bottom: 1px solid rgb(229, 243, 255);
-}
-
-.introd-group {
-    display: flex;
-}
-
-.introd-texto {
-    margin-left: 20%;
-    margin-right: 15%;
-    width: 20%;
-}
-
-.pai-inf {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 16px;
-    padding: 20px;
-}
-
-.pai-loc {
-    display: grid;
-    grid-template-columns: repeat(1 mimax(0,1fr));
-}
-
-.pai-tt, .loc {
-    display: flex;
-    justify-content: center;
-}
-
-.img-loc {
-    width: 700px;
-    height: 300px;
-}
-
-.perg-pai {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 16px;
-    text-align: center;
-    padding: 0 20px 20px 20px;
-}
-
-.ttl-perg {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-}
-
 aside, .asd-bt {
     float: right;
 }
@@ -195,23 +108,13 @@ aside {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.ajuda {
-    text-decoration: none;
-    color: red;
-    border-bottom: 1px solid rgb(176, 34, 145);
+.pai-inf {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    padding: 20px;
 }
 
-.ajuda-pai, .ajuda-son {
-    display: flex;
-    flex-direction: column;
-    border: solid 2px pink;
-    align-items: center;
-    width: 90%;
-    max-width: 600px;
-    margin: 40px auto;
-    background-color: blueviolet;
-}
-
-.ajuda-son {
-    background-color: green;
+.img-inf {
+    border-bottom: 1px solid rgb(229, 243, 255);
 }
