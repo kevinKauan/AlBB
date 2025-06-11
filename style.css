@@ -96,6 +96,10 @@ strong {
     gap: 80px;
 }
 
+.imagem-bb {
+    border-radius: 8px;
+}
+
 .divisao {
     display: flex;
     margin: 0 0 20px 0;
@@ -135,6 +139,7 @@ strong {
 .img-loc {
     width: 700px;
     height: 300px;
+    border-radius: 8px;
 }
 
 .perg-pai {
@@ -153,6 +158,7 @@ strong {
 
 aside, .asd-bt {
     float: right;
+    border-radius: 20px;
 }
 
 .asd-bt {

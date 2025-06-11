@@ -43,6 +43,7 @@ footer {
     width: 100%;
     height: 250px;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .img-inf {
@@ -172,6 +173,7 @@ main {
 
 aside, .asd-bt {
     float: right;
+    border-radius: 20px;
 }
 
 .asd-bt {

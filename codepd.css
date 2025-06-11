@@ -66,6 +66,7 @@ body {
 
 aside, .asd-bt {
     float: right;
+    border-radius: 20px;
 }
 
 .asd-bt {
