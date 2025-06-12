@@ -135,3 +135,24 @@ aside {
 .son-altr {
     padding-right: 90px;
 }
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    width: 90%;
+    max-width: 600px;
+}
+
+.sobre-son {
+    display: block;
+}
+
+.sobre-txt {
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+}
