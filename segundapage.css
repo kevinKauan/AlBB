@@ -216,3 +216,20 @@ aside {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+@media screen  and (max-width: 480px) {
+    .card-group {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .card-son {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .pai-inf {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    aside {
+        display: none;
+    }
+}

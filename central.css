@@ -182,3 +182,12 @@ aside {
     text-decoration: none !important;
     color: inherit !important;
 }
+
+@media screen and (max-width : 480px) {
+    .pai-inf {
+        grid-template-columns:  repeat(1, 1fr);
+    }
+    aside {
+        display: none;
+    }
+}

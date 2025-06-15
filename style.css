@@ -221,3 +221,68 @@ aside {
 .ajuda-son {
     background-color: green;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .introd-group, .imagens-group, .divisao, .sobre, .ben {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .introd-texto, .teste {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .img-loc {
+        width: 100%;
+        height: auto;
+    }
+
+    .pai-inf, .perg-pai {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    aside {
+        display: none;
+    }
+
+    .asd-bt {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .ajuda-pai {
+        width: 95%;
+    }
+    .sobre-pai {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pai-inf, .perg-pai {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-loc {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav {
+        font-size: 14px;
+    }
+
+    .asd-bt {
+        width: 90%;
+    }
+}
