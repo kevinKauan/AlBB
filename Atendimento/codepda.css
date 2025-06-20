@@ -145,6 +145,8 @@ aside {
     border: 2px solid;
     width: 90%;
     max-width: 600px;
+    background-color: rebeccapurple;
+    border-radius: 5px;
 }
 
 .sobre-son {
@@ -153,6 +155,6 @@ aside {
 
 .sobre-txt {
     margin: 10px auto;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding: 0px 60px 0px;
 }

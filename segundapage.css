@@ -70,6 +70,7 @@ footer {
     transform: scale(1.2);
     box-shadow: 0 8px 20px rgba(60, 174, 163, 0.5);
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
 }
 
 .card-son {
